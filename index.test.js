@@ -83,4 +83,5 @@ describe('sayilar görevi', ()=>{
     it('tekraredensayilar tekrar eden tüm sayıları içeriyor', ()=>{
 	expect(functions.tekraredensayilar).toEqual(expect.arrayContaining(tekrar));
     })
+    
 });
